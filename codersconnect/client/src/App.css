@@ -1,0 +1,121 @@
+.loginPage{
+    padding: 50px;
+    width: 100%;
+}
+#footer{
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    height: 6em;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-icon{
+    margin-left:8px;
+    color: whitesmoke;
+}
+.footer-icon:hover{
+    color:gray;
+}
+
+#registerForm{
+    padding: 60px;
+    widows: 80%;
+}
+#nav_link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#profilePage{
+    display: flex;
+    width: "100%";
+    justify-content: center;
+    padding: 10px;
+}
+#about{
+    display: flex;
+    width: "100%";
+    justify-content: center;
+    padding: 10px; 
+}
+#profileForm{
+    display: flex;
+    width: "100%";
+    padding: 50px;
+}
+#wall{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    width: "100%";
+    text-align: center;
+}
+#users{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    width: "100%";
+    text-align: center;
+}
+
+#user-view{
+    display:block;
+    padding:20px;
+}
+
+#userViewCard{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#user-bold{
+    font-weight: bold;
+    color: #0B96F7;
+}
+#skills-conatiner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+#skills{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: column;
+}
+#skills-item{
+    font-size: 15px;
+    padding: 3px;
+    font-weight: 500;
+}
+
+
+.thumb{
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.thumb-green{
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 10px;
+    color: green;
+}
+
+.thumb-red{
+    font-size: 25px;
+    margin-right: 10px;
+    color: red;
+    cursor: pointer;
+}

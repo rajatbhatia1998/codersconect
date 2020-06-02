@@ -1,0 +1,41 @@
+{
+  "name": "coders",
+  "version": "1.0.0",
+  "description": "Platform to connect Developer",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react-loading": "^2.0.3",
+    "reactstrap": "^8.2.0",
+    "validator": "^12.1.0"
+  },
+  "now": {
+    "alias":"coders-connect",
+    "name": "coders-connect",
+    "env": {
+      "PORT": "5000"
+    }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "now --public",
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "engines":{
+    "node":"8.11.1"
+  },
+  "author": "Rajat Bhatia",
+  "license": "ISC"
+}
